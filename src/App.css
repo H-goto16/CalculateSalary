@@ -5,23 +5,28 @@ body {
 .container {
   text-align: center;
 }
+
 .warn {
   margin: 0px;
   font-weight: 300;
   font-size: 0.4em;
 }
+
 .inputData {
   margin: 0.75em;
   text-align: center;
   height: 30px;
   border-radius: 100px;
   box-shadow: 5px 6px 10px rgb(72, 67, 67);
+  -webkit-appearance: none;
+  appearance: none;
   font-size: 1em;
 }
+
 .button {
   margin-top: 1em;
   border-radius: 100px;
   height: 40px;
   box-shadow: 5px 6px 10px rgb(72, 67, 67);
   background-color: rgb(177, 219, 238);
-}
+}/*# sourceMappingURL=App.css.map */
