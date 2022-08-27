@@ -31,5 +31,6 @@ body {
   border-width: 3px;
   box-shadow: 5px 6px 10px rgb(72, 67, 67);
   background-color: rgb(177, 219, 238);
+  border-color: rgb(46, 46, 46);
   color: #000;
 }
