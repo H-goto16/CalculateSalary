@@ -17,6 +17,7 @@ body {
   text-align: center;
   height: 30px;
   border-radius: 100px;
+  border-color: rgb(166, 166, 166);
   box-shadow: 5px 6px 10px rgb(72, 67, 67);
   -webkit-appearance: none;
   appearance: none;
@@ -31,6 +32,6 @@ body {
   border-width: 3px;
   box-shadow: 5px 6px 10px rgb(72, 67, 67);
   background-color: rgb(177, 219, 238);
-  border-color: rgb(46, 46, 46);
+  border-color: rgb(166, 166, 166);
   color: #000;
 }
