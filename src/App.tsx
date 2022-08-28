@@ -3,7 +3,8 @@ import './App.css';
 
 function App() {
   const culcMoney = (hourlyWage:number, hour:number, minutes:number ) => {
-    const salary = ( hourlyWage / 60 ) * ((hour * 60) + minutes)
+    const salary = (hourlyWage * hour) + (hourlyWage / 60) * minutes
+    console.log(salary)
     return salary
   }
   const [salaryData ,setSaralyData ] = useState<number>(0);
@@ -25,6 +26,7 @@ function App() {
       setSaralyData(culcMoney(hourlyWageData,hourData,minutesData))
       setSumSalary(salaryData * dayData)
     }
+    
   },[changeTrunc, dayData, hourData, hourlyWageData, minutesData, salaryData])
 
 
