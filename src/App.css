@@ -5,12 +5,62 @@ body {
 .container {
   text-align: center;
 }
-
+.title {
+  display: inline-flex;
+  margin-bottom: 10px;
+  margin-left: 60.04px;
+  padding-bottom: 0;
+}
+.version {
+  display: inline-flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: serif;
+  font-size: small;
+}
 .warn {
   margin: 0px;
+  margin-bottom: 2em;
   font-weight: 300;
   font-size: 0.4em;
 }
+.link {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0.3em;
+  font-size: 1.1em;
+  color: #000;
+  border: rgb(107, 107, 107);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-style: solid;
+  padding: 0.1em;
+  border-radius: 0.25em;
+  box-shadow: 1px 6px 5px rgb(72, 67, 67);
+  -webkit-appearance: none;
+  appearance: none;
+  transition: 10ms;
+}
+
+.link:hover {
+  border: rgb(107, 107, 107);
+  background-color: rgb(207, 207, 207);
+  border-style: solid;
+}
+.link:active {
+  color: #000;
+  border: rgb(107, 107, 107);
+  background-color: rgb(119, 119, 119);
+  border-style: double;
+  border-width: 1px;
+  padding: 0.1em;
+  border-radius: 0.25em;
+  transition: 50ms;
+	transform: translateY(5px) scale(95%);
+  /* transform: scale(95%); */
+	border-bottom:none;
+}
+
+
 
 .inputData {
   margin: 0.75em;
@@ -24,6 +74,9 @@ body {
   font-size: 1em;
   border-width: 3px;
 }
+input:focus {
+  border-style: double;
+}
 
 .button {
   margin-top: 1em;
@@ -34,4 +87,41 @@ body {
   background-color: rgb(177, 219, 238);
   border-color: rgb(166, 166, 166);
   color: #000;
+}
+.button:active {
+  transition: 50ms;
+	transform: translateY(1px) scale(98%);
+  background-color: rgb(139, 176, 181);
+}
+
+.subTitle {
+  font-size: 0.3em;
+  margin: 0;
+}
+
+.salary {
+  margin: 0.23em;
+}
+
+.versionLink {
+  font-size: 0.5em;
+}
+
+.mail {
+  text-decoration: none;
+  color: black;
+  font-size: 0.4em;
+}
+
+
+
+.verTitle {
+  display: inline-flex;
+  font-family: serif;
+  font-style: italic;
+  margin: 0;
+}
+.detailVer {
+  display: inline-flex;
+  margin: 0.8em;
 }
