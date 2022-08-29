@@ -15,8 +15,8 @@ export const AIncome = () => {
         if (changeTrunc === true) {
             setButtonTitle("小数点を非表示")
             setCalcReturn(Math.trunc(hourlyWage) || 0)
-            setDaySalary(Math.trunc((AIncome * 10000) / 365) || 0)
-            setMonthSalary(Math.trunc((AIncome * 10000) / 12) || 0)
+            setDaySalary(Math.trunc(AIncome * 10000 / dateData) || 0)
+            setMonthSalary(Math.trunc(AIncome * 10000 / 12) || 0)
         } else if (changeTrunc === false ) {
             setButtonTitle("小数点を表示")
             setCalcReturn(hourlyWage || 0)

@@ -2,6 +2,9 @@ export const Version = () => {
     return (
         <>  
             <hr />
+            <h3 className="verTitle">Version 2.1</h3>
+            <p className="detailVer">演算処理の修正</p>
+            <br />
             <h3 className="verTitle">Version 2</h3>
             <p className="detailVer">機能の追加、見た目の変更</p>
             <br />
