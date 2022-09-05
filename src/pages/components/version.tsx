@@ -6,6 +6,9 @@ export const Version = () => {
         <>  
                 <hr />
             <div className="verContainer">
+                <h3 className="verTitle">Version 3.9</h3>
+                <p className="detailVer">レスポンシブデザイン</p>
+                <br />
                 <h3 className="verTitle">Version 3.8</h3>
                 <p className="detailVer">レイアウト変更</p>
                 <br />
