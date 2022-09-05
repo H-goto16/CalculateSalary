@@ -5,6 +5,12 @@ export const Version = () => {
     return (
         <>  
             <hr />
+            <h3 className="verTitle">Version 3.4</h3>
+            <p className="detailVer">軽微な修正</p>
+            <br />
+            <h3 className="verTitle">Version 3.3</h3>
+            <p className="detailVer">軽微な修正</p>
+            <br />
             <h3 className="verTitle">Version 3.2</h3>
             <p className="detailVer">リダイレクト設定</p>
             <br />
