@@ -5,11 +5,17 @@ export const Version = () => {
     return (
         <>  
             <hr />
+            <h3 className="verTitle">Version 3.7</h3>
+            <p className="detailVer">軽量化</p>
+            <br />
+            <h3 className="verTitle">Version 3.6</h3>
+            <p className="detailVer">修正</p>
+            <br />
             <h3 className="verTitle">Version 3.5</h3>
-            <p className="detailVer">軽微な修正</p>
+            <p className="detailVer">apple touch icon 更新</p>
             <br />
             <h3 className="verTitle">Version 3.4</h3>
-            <p className="detailVer">軽微な修正</p>
+            <p className="detailVer">favicon更新</p>
             <br />
             <h3 className="verTitle">Version 3.3</h3>
             <p className="detailVer">軽微な修正</p>
