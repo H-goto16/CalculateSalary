@@ -116,6 +116,30 @@ input:focus {
 }
 
 
+.verContainer {
+  text-align: start;
+  margin-left: 42vw;
+}
+@media (max-width:1020px)  {
+  .verContainer {
+    margin-left: 35vw;
+  }
+}
+@media (max-width:750px)  {
+  .verContainer {
+    margin-left: 30vw;
+  }
+}
+@media (max-width:600px)  {
+  .verContainer {
+    margin-left: 20vw;
+  }
+}
+@media (max-width:300px)  {
+  .verContainer {
+    margin-left: 10vw;
+  }
+}
 
 .verTitle {
   display: inline-flex;
