@@ -5,6 +5,9 @@ export const Version = () => {
     return (
         <>  
             <hr />
+            <h3 className="verTitle">Version 3.5</h3>
+            <p className="detailVer">軽微な修正</p>
+            <br />
             <h3 className="verTitle">Version 3.4</h3>
             <p className="detailVer">軽微な修正</p>
             <br />
