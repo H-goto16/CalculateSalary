@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div className='container'>
         <h1 className='title'>給料計算アプリ</h1>
-        <h3 className='version'>version 3.9</h3>
+        <h3 className='version'>version 4.0 Beta</h3>
         <h4 className='warn'>小数点を表示した場合、浮動小数点演算のため誤差が生じる恐れがあります。</h4>
         <Link className='link' to="/">時給から計算</Link>
         <Link className='link' to="/calcHourlyWage">年収から計算</Link>
@@ -25,6 +25,7 @@ function App() {
         </div>
         <Link className='versionLink' to="/version">バージョン履歴</Link>
       </div>
+      <p className="notification">予算と時給で時間を算出する機能を試験的に追加したのでベータとしています。バグ等ありましたら報告お願いします。</p>
     </BrowserRouter>
   );
 }
