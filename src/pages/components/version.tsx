@@ -7,6 +7,9 @@ export const Version = () => {
             <hr />
             <div className="centerVer">
                 <div className="verContainer">
+                    <h3 className="verTitle">Version 4.0</h3>
+                    <p className="detailVer">計算機構の修正</p>
+                    <br />
                     <h3 className="verTitle">Version 4.0 Beta</h3>
                     <p className="detailVer">機能の追加、見た目の変更</p>
                     <br />

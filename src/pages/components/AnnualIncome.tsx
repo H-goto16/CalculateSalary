@@ -28,16 +28,16 @@ export const AIncome = () => {
 
     return (
         <>
-        <input type="number" className='inputData' placeholder='目標の年収(万円)' onChange={(e) => setAIncome(e.target.value as unknown as number)}/>
-        <br/>
-        <input type="number" className='inputData' placeholder='一日の労働時間'onChange={(e) => setHourData(e.target.value as unknown as number)}/>
-        <br/>
-        <input type="number" className='inputData' placeholder='年間勤務日数' onChange={(e) => setDateData(e.target.value as unknown as number)}/>
-        <p className="subTitle">完全週休2日制 祝日休みの場合{365-120}日勤務</p>
-        <button type='button' className='button' onClick={() => setChangeTrunc(current => !current)}>{buttonTitle}</button>
-        <h1 className="salary">時給{calcReturn}円</h1>
-        <h1 className="salary">日給{daySalary}円</h1>
-        <h1 className="salary">月給{monthSalary}円</h1>
+            <input type="number" className='inputData' placeholder='目標の年収(万円)' onChange={(e) => setAIncome(e.target.value as unknown as number)}/>
+            <br/>
+            <input type="number" className='inputData' placeholder='一日の労働時間'onChange={(e) => setHourData(e.target.value as unknown as number)}/>
+            <br/>
+            <input type="number" className='inputData' placeholder='年間勤務日数' onChange={(e) => setDateData(e.target.value as unknown as number)}/>
+            <p className="subTitle">完全週休2日制 祝日休みの場合{365-120}日勤務</p>
+            <button type='button' className='button' onClick={() => setChangeTrunc(current => !current)}>{buttonTitle}</button>
+            <h1 className="salary">時給{calcReturn}円</h1>
+            <h1 className="salary">日給{daySalary}円</h1>
+            <h1 className="salary">月給{monthSalary}円</h1>
         </>
     )
 }
