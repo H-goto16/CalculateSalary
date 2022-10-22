@@ -1,3 +1,4 @@
 # Calculate Salary
 
-I want to rewrite readme.
+This website is made by React / Typescript.
+
